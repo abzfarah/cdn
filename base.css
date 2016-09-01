@@ -106,3 +106,58 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
+
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container {
+  max-width: 1016px;
+}
+.container.spacing-content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.narrow-content {
+  max-width: 680px;
+  margin: auto;
+  text-align: center;
+  font-size: 120%;
+}
+.narrow-content p {
+  color: #666;
+}
+.narrow-content ul {
+  padding-left: 0;
+}
+.narrow-content ul.ul-inline {
+  margin: 20px 0;
+}
+.narrow-content ul.ul-inline li {
+  background: url("/homepage/img/icon-checkmark.png") left 4px no-repeat;
+  display: inline-block;
+  padding-left: 30px;
+  margin: 0 20px;
+}
+.narrow-content ul.ul-large {
+  text-align: left;
+}
+.narrow-content ul li {
+  margin-bottom: 20px;
+  background: url("/homepage/img/icon-checkmark.png") left 4px no-repeat;
+  padding-left: 30px;
+  list-style: none;
+}
