@@ -661,6 +661,101 @@ html.homepage-page .carousel .slide-4 .premises-box span {
 
 
 
+
+
+
+
+
+
+
+
+
+
+.container-fluid:after,.container-fluid:before,.container:after,.container:before,.row:after,.row:before {
+    display: table;
+    content: ""
+}
+
+.container,.container-fluid {
+    margin-right: auto;
+    margin-left: auto
+}
+
+pre code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: $border-radius
+}
+
+.container,.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.btn,.text-nowrap,.text-truncate {
+    white-space: nowrap
+}
+
+.pre-scrollable {
+    max-height: 340px;
+    overflow-y: scroll
+}
+
+.container {
+    max-width: 1016px
+}
+
+@media (min-width: 768px) {
+    .container {
+        width:750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width:970px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width:1170px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .btn {
   display: inline-block;
   margin-bottom: 0;
